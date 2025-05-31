@@ -25,7 +25,7 @@ A simple and fast Flask-based web app that analyzes resumes by detecting key ski
    cd ai-resume-analyzer
    ```
 
-2. **Create a virtual environment (optional but recommended)**
+2. **Create a virtual environment (optional)**
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -36,7 +36,7 @@ A simple and fast Flask-based web app that analyzes resumes by detecting key ski
    pip install -r requirements.txt
    ```
 
-4. **Create a `.env` file** in the root directory:
+4. **Create a .env file** in the root directory:
    ```
    OPENAI_API_KEY=your_openai_key_here
    ```
