@@ -21,7 +21,7 @@ A simple and fast Flask-based web app that analyzes resumes by detecting key ski
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/ai-resume-analyzer.git
+   https://github.com/Wassim-H07/resume-analyzer-ai.git
    cd ai-resume-analyzer
    ```
 
