@@ -28,7 +28,7 @@ A simple and fast Flask-based web app that analyzes resumes by detecting key ski
 2. **Create a virtual environment (optional)**
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   venv\Scripts\activate  # On MacOS: source venv/bin/activate
    ```
 
 3. **Install required packages**
