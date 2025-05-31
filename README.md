@@ -7,7 +7,7 @@ A simple and fast Flask-based web app that analyzes resumes by detecting key ski
 - Detects keywords like Python, Git, Docker, React, etc.
 - Calculates a match score (%)
 - Shows top missing skills
-- Generates AI suggestions using OpenAI GPT-3.5
+- Generates AI suggestions using OpenAI
 - Clean, responsive interface (HTML/CSS)
 
 ## Tech Stack
