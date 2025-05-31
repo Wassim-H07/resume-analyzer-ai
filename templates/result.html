@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Resume Analysis Result</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <h2>AI Resume Analysis Result</h2>
+
+    <div class="result-box">
+      <p><strong>Score:</strong> {{ score }}%</p>
+
+      <p><strong>Matched Keywords:</strong></p>
+      <ul>
+        {% for kw in keywords %}
+          <li>{{ kw }}</li>
+        {% endfor %}
+      </ul>
+
+      <p><strong>Top Missing Skills:</strong></p>
+      <ul>
+        {% for kw in missing_keywords %}
+          <li>{{ kw }}</li>
+        {% endfor %}
+      </ul>
+
+      <p><strong>AI Suggestions:</strong></p>
+      <div class="ai-feedback">
+        <pre>{{ ai_feedback }}</pre>
+      </div>
+    </div>
+
+    <a href="/" class="back-link">← Back</a>
+  </div>
+</body>
+</html>

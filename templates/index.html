@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Resume Analyzer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <h2>AI Resume Analyzer</h2>
+  <p>Paste your CV below to receive an AI-powered keyword match score and improvement tips.</p>
+
+  <form method="POST">
+    <textarea name="cv_text" placeholder="Paste your CV here..." required></textarea><br>
+    <button type="submit">Analyze</button>
+  </form>
+
+  <p class="note">Your resume is analyzed locally and not stored or shared.</p>
+</body>
+</html>
